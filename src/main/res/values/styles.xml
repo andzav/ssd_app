@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/bgColor</item>
+        <item name="colorPrimaryDark">@color/bgColor</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/bgColor</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:colorBackground">@color/blackish</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="android:colorForeground">@color/blackish</item>
+        <item name="android:navigationBarColor">@color/blackish</item>
+        <item name="android:textColorSecondaryInverse">@android:color/white</item>
+        <item name="android:textColorPrimaryInverse">@color/primary_text_material_dark</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textColorHint">#797979</item>
+    </style>
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+</resources>
